@@ -1,0 +1,103 @@
+Master's Thesis Idea #1: Social Video Platform
+
+Description:
+
+Today people are recording more videos than at any other time in history. Most people have very well equipped video recording devices that they carry in their pockets (smartphones) which have capabilities that dwarf even the most advanced handheld camcorders of just a few years ago.  YouTube reports that they receive 300 hours of recorded video submissions PER MINUTE (see: https://www.youtube.com/yt/press/statistics.html, accessed 2015-05-22, http://www.tubefilter.com/2014/12/01/youtube-300-hours-video-per-minute/, accessed 2016-02-25, and http://expandedramblings.com/index.php/youtube-statistics/, accessed 2015-02-25).  In addition to the stratospheric proliferation of newly recorded digital video, in recent years an entirely new industry of video preservation companies has sprung up which offer a variety of services to help both professional and consumer customers to digitize their recordings made on film, magnetic, or optical formats; these services will accept all manner of defunct formats and digitize the recordings captured on them in as high resolution as possible and create digital copies of the originals.  With the future viability of nearly all physical media formats in doubt at best and al but assuredly over at worst, it seems the writing is on the wall for the future primacy of digital video as the format of the future.  However, with the massive increase in the amount of recorded video content created, how should content be organized for sharing and annotated for posterity?
+
+One popular method people used to use for creating "playlists", "favorite" recordings, and generally sharing of media in the past was to create so-called "mix-tapes" of favorite music and videos.  People would typically use two "decks" to create the compilations; one would be used to play back the song or video they wanted to record, an the other deck would be used to create the new recording.  Today this practice is an all-but forgotten media artifact of the 1980's and 1990's (rarely ever seen since the early 2000's).  At the same time as people are no longer creating and sharing "mix-tapes" of either songs or videos for friends and family, the world is seeing the largest exponential growth of recorded media in its history; clearly the manual labor and time investment required in the now lost art of creating "mix-tapes" does not scale, and better solutions are needed for organizing, categorizing, and sharing important digital video works.  Without the benefit of carefully crafted and curated metadata to catalog the output of this new explosion of recordings, the future usefulness and viability of new recordings is in serious question.  As video recording has shifted away from being created on physical media formats to digital formats, new digital recordings do not have the advantage of their physical media forebears which could be easily and simply labeled with a pen or marker to describe their contents.
+
+At the same time as society has seen explosive growth in the proliferation of recordings due to technological advances, we have also seen the rise of the "social" web.  People are sharing all aspects of their lives with friends, family, even perfect strangers online.  Participants in the "social web" allow others to add metadata, comments, and add to their own digitally shared pictures, music, videos, etc.  This has proven to be a very effective way to apply meaningful metadata to digital artifacts, and adds to the future longevity and viability of such digital artifacts (presuming that the metadata applied to individual files can be guaranteed to survive alongside the digital files themselves well into the future).
+
+Personal Story:
+
+A few years ago I embarked on a large project to digitize the video recordings of my entire family: the family of my wife, myself, and our children, as well as my wife's nuclear family, as well as my own.  I asked for my parents and my wife's parents to loan me all the old family videos that they could find laying around in boxes in basements and attics, unplayed for years.  I received dozens and dozens of VHS tapes, nearly 100 Mini-DV tapes, and even several Super8 films (and this was in addition to all the digital media our 3 families have accumulated over the past decade from recordings on purely digital devices such as D-SLR cameras, smartphones, etc.).  I was fortunate enough to be able to borrow some professional video equipment, and slowly I worked through the long, arduous process of re-recording all of the analog video content I had accumulated into digital format at the highest possible resolution.  Nearly a year later, I had about 3TB of recordings, and I had not yet even finished re-recording all of the content.  I had literally hundreds of hours of precious family memories of my childhood, my wife's childhood, my siblings, and even of relatives that have since passed on.
+
+
+
+
+Goals
+
+Having a very large collection of disorganized, scattered video across a variety of formats, etc., there are several important pieces of information that I want to obtain for each video:
+
+Who: who are the individuals in the video?  At what time(s) in the video do these individuals appear?  It is desireable to know when different people are in the same video/segment (e.g., when were there a video of Tom and Dick, but Harry was not present)
+
+What: a description of the event(s) shown in each video. What is going on?  
+
+When: since much of the recordings are the end-product of digitzed analog video/film, it is important to know the dates/times of the original recordings, to as high a degree of accuracy as possible.  In many cases it may only be possible to know the approximate month and year of a recording, but that level of granularity may be adequete.
+
+Where:  where was the original recording created?  Since a video can cover several different times and places, it is important to be able to mark particular shots/sequences of the video as being recorded in a particular location.
+
+Description: allow viewers to post descriptions of the entire video and individual sequences/shots.
+
+Viewer Comments: allowing viewers of the video to place annotations and comments (both for the whole video, as well as segments/shots/sequences) is highly desireable as this brings life, vibrancy, and relevancy to old recordings and fosters the collaborative, sharing community of viewers that is required for the project to succeed.
+
+It is critical that the process of asking interested parties to view
+
+
+
+
+
+-------------------------------------------------------------------------------
+
+Here are some topics you expect to find in an IT thesis.
+These may each appear in their own chapter, or combined with others.
+Not all theses have all topics below: Most have most of them.
+
+Problem statement 
+    What is the problem?
+    Why is it important?
+    Try to make a succinct
+    Statement of what exactly your project achieves.
+
+Prior work 
+    Comprehensive review of the related work
+    Your review should make clear the difference between
+        your work and prior work
+
+Requirements
+    What must your project do?
+    This may involve a review of the process you are dealing with.
+
+System Overview 
+    Give an overview of your design
+    What are the major parts?  How do they communicate? 
+
+Design and Technology Choices
+    How are you going to implement your solution?
+    What design choices did you have?
+    Why did you make the choices you did?
+
+Algorithmic Challenges 
+    Describe any algorithms that you had to implement
+
+Implementation 
+    More details on the implementation, and some of the challenges
+
+User Guide 
+    What does a user have to do to use your system?
+
+Results & Evaluation 
+    Show results and provide some form of evaluation.
+    Did you manage to do an informal user study?
+    How does this compare to other systems?
+
+Summary & conclusions 
+   A recap of your main contributions, the results, and some 
+        pointers for future work
+   What would you have done differently had you been starting today?
+
+Appendix: 
+   Bibliography
+   Glossary
+
+JDP - Based on a template forwarded by Hanspeter Pfister
+
+-------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
