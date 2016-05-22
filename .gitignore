@@ -1,0 +1,12 @@
+# ignore all the junk files that get created by TeXShop typesetting process
+.aux
+.bbl
+.bib
+.lof
+.lot
+.out
+.run.xml
+.synctex.gz
+
+# Mac-specific desktop helper info
+.DS_Store

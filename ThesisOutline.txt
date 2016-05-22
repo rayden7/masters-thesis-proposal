@@ -1,0 +1,52 @@
+Here are some topics you expect to find in an IT thesis.
+These may each appear in their own chapter, or combined with others.
+Not all theses have all topics below: Most have most of them.
+
+Problem statement 
+    What is the problem?
+    Why is it important?
+    Try to make a succinct
+    Statement of what exactly your project achieves.
+
+Prior work 
+    Comprehensive review of the related work
+    Your review should make clear the difference between
+        your work and prior work
+
+Requirements
+    What must your project do?
+    This may involve a review of the process you are dealing with.
+
+System Overview 
+    Give an overview of your design
+    What are the major parts?  How do they communicate? 
+
+Design and Technology Choices
+    How are you going to implement your solution?
+    What design choices did you have?
+    Why did you make the choices you did?
+
+Algorithmic Challenges 
+    Describe any algorithms that you had to implement
+
+Implementation 
+    More details on the implementation, and some of the challenges
+
+User Guide 
+    What does a user have to do to use your system?
+
+Results & Evaluation 
+    Show results and provide some form of evaluation.
+    Did you manage to do an informal user study?
+    How does this compare to other systems?
+
+Summary & conclusions 
+   A recap of your main contributions, the results, and some 
+        pointers for future work
+   What would you have done differently had you been starting today?
+
+Appendix: 
+   Bibliography
+   Glossary
+
+JDP - Based on a template forwarded by Hanspeter Pfister
