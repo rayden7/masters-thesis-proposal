@@ -12,10 +12,10 @@ prerequisites:
 4) TeXShop should automatically open up a PDF preview of the file that was created; inspect that the PDF is formatted properly
 5) the typsetting process creates a bunch of garbage files; you can delete all of them that begin with the same name as the .tex file you were editing - delete the following:
 	- *.aux
-	- .lof
-	- .lot
-	- .out
-	- .run.xml
-	- .synctex.gz
+	- *.lof
+	- *.lot
+	- *.out
+	- *.run.xml
+	- *.synctex.gz
 6) add any new files to git by "git add -f filename", and then commit with "git commit" and write a commit comment to denote what you added
 7) push the changes up to Github with "git push -u origin master"
