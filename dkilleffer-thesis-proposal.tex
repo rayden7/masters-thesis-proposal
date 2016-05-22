@@ -128,19 +128,27 @@
 \setcounter{page}{1}			% set page counter
 \pagestyle{maincontentstyle} 	% fancy header and footer
 
-%\input{content/chapter-introduction}     % INCLUDE: introduction
+%%\input{content/chapter-introduction}     % INCLUDE: introduction
 \input{content/chapter-problem-statement} % INCLUDE: problem-statement
-%\input{content/chapter-related-work}     % INCLUDE: related work
+%%\input{content/chapter-related-work}     % INCLUDE: related work
 \input{content/chapter-prior-work}        % INCLUDE: related work
 \input{content/chapter-requirements}	  % INCLUDE: requirements
 \input{content/chapter-system}	          % INCLUDE: system
 \input{content/chapter-design}	          % INCLUDE: design
-\input{content/chapter-algorithms}	      % INCLUDE: algorithmic challenges
-\input{content/chapter-implementation}	  % INCLUDE: implementation analysis
-\input{content/chapter-user-guide}	      % INCLUDE: user guide
-\input{content/chapter-results}	          % INCLUDE: results and evaluation
-%\input{content/chapter-concepts} % INCLUDE: concepts
-\input{content/chapter-conclusion}        % INCLUDE: conclusion
+
+%%%
+%%% TODO: include the sections below in the main thesis, but probably not in the proposal
+%%%
+%\input{content/chapter-algorithms}	        % INCLUDE: algorithmic challenges
+%\input{content/chapter-implementation}	    % INCLUDE: implementation analysis
+%\input{content/chapter-user-guide}	        % INCLUDE: user guide
+%\input{content/chapter-results}	        % INCLUDE: results and evaluation
+
+\input{content/chapter-work-plan}	        % INCLUDE: work plan
+\input{content/chapter-risks-alternatives}  % INCLUDE: risks and alternatives
+\input{content/chapter-schedule}            % INCLUDE: preliminary project schedule
+
+%%\input{content/chapter-concepts} % INCLUDE: concepts
 \cleardoublepage
 
 % --------------------------
@@ -161,6 +169,11 @@
 
 \listoftables
 \cleardoublepage
+
+
+\input{content/glossary}            % INCLUDE: glossary of terms
+\cleardoublepage
+
 
 \input{content/colophon}
 \cleardoublepage
