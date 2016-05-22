@@ -51,9 +51,10 @@
 \newcommand{\thesisUniversity}{\protect{Harvard University Extension School}}
 \newcommand{\thesisUniversityDepartment}{Department of Information Technology}
 \newcommand{\thesisUniversityInstitute}{Institut for Clean Thesis Dev}
-\newcommand{\thesisUniversityGroup}{Clean Thesis Group (CTG)}
+%\newcommand{\thesisUniversityGroup}{Clean Thesis Group (CTG)}
+\newcommand{\thesisUniversityGroup}{}
 \newcommand{\thesisUniversityCity}{Cambridge, Massachusetts}
-\newcommand{\thesisUniversityStreetAddress}{Street address}
+\newcommand{\thesisUniversityStreetAddress}{51 Brattle Street}
 \newcommand{\thesisUniversityPostalCode}{02138}
 
 % **************************************************
@@ -108,15 +109,16 @@
 \cleardoublepage
 
 \pagestyle{plain}				% display just page numbers
+%\input{content/abstract}		% INCLUDE: the abstracts (english and german)
 \input{content/abstract}		% INCLUDE: the abstracts (english and german)
 \cleardoublepage
-%
 \input{content/acknowledgement} % INCLUDE: acknowledgement
 \cleardoublepage
-%
+
 \setcounter{tocdepth}{2}		% define depth of toc
 \tableofcontents				% display table of contents
-\cleardoublepage
+%\cleardoublepage
+
 
 % --------------------------
 % Body matter
