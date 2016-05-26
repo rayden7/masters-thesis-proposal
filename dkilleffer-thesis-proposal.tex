@@ -106,19 +106,21 @@
 \pagenumbering{roman}			% roman page numbing (invisible for empty page style)
 \pagestyle{empty}				% no header or footers
 \input{content/titlepages}		% INCLUDE: all titlepages
-\cleardoublepage
+%\cleardoublepage
+%\clearpage
 
 \pagestyle{plain}				% display just page numbers
-%\input{content/abstract}		% INCLUDE: the abstracts (english and german)
-\input{content/abstract}		% INCLUDE: the abstracts (english)
-\cleardoublepage
+\input{content/abstract}		% INCLUDE: the abstract
+%\cleardoublepage
+%\clearpage
 \input{content/acknowledgements} % INCLUDE: acknowledgement
-\cleardoublepage
-%
+%\cleardoublepage
+\clearpage
 
 \setcounter{tocdepth}{2}		% define depth of toc
 \tableofcontents				% display table of contents
 %\cleardoublepage
+\clearpage
 
 
 % --------------------------
