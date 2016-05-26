@@ -1,0 +1,23 @@
+quickly find the files that comprise the project:
+
+
+
+dkilleffer-laptop:VIDEOS dkilleffer$ pwd
+/Volumes/Seagate Expansion Drive/VIDEOS
+dkilleffer-laptop:VIDEOS dkilleffer$ find . -type f -name "*.DV" | wc -l
+       0
+dkilleffer-laptop:VIDEOS dkilleffer$ find . -type f -name "*.MOV" | wc -l
+       0
+dkilleffer-laptop:VIDEOS dkilleffer$ find . -type f -name "*.AVI" | wc -l
+       6
+dkilleffer-laptop:VIDEOS dkilleffer$ find . -type f -name "*.avi" | wc -l
+       0
+dkilleffer-laptop:VIDEOS dkilleffer$ find . -type f -name "*.mpeg" | wc -l
+       0
+dkilleffer-laptop:VIDEOS dkilleffer$ find . -type f -name "*.mpg" | wc -l
+      13
+dkilleffer-laptop:VIDEOS dkilleffer$ find . -type f -name "*.mov" | wc -l
+    1245
+dkilleffer-laptop:VIDEOS dkilleffer$ find . -type f -name "*.dv" | wc -l
+    1672
+dkilleffer-laptop:VIDEOS dkilleffer$ 
