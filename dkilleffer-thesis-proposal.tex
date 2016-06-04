@@ -59,6 +59,8 @@
 % **************************************************
 % Load and Configure Packages
 % **************************************************
+\RequirePackage[hyphens]{url}
+\usepackage{enumitem}
 \usepackage[utf8]{inputenc}		% defines file's character encoding
 \usepackage[english]{babel} % babel system, adjust the language of the content
 \usepackage[					% clean thesis style
@@ -107,11 +109,11 @@
 \pagestyle{empty}				% no header or footers
 \input{content/titlepages}		% INCLUDE: all titlepages
 %\cleardoublepage
-
 \pagestyle{plain}				% display just page numbers
 \input{content/abstract}		% INCLUDE: the abstract
 %\cleardoublepage
 %\clearpage
+
 \input{content/acknowledgements} % INCLUDE: acknowledgement
 %\cleardoublepage
 \clearpage
@@ -150,7 +152,7 @@
 \input{content/chapter-schedule}            % INCLUDE: preliminary project schedule
 
 %%\input{content/chapter-concepts} % INCLUDE: concepts
-\cleardoublepage
+%\cleardoublepage
 
 % --------------------------
 % Back matter
@@ -163,25 +165,30 @@
 \printbibliography[nottype=online]
 \printbibliography[heading=subbibliography,title={Webseiten},type=online,prefixnumbers={@}]
 }
-\cleardoublepage
+%\cleardoublepage
+\clearpage
+
 
 \listoffigures
-\cleardoublepage
+%\cleardoublepage
+\clearpage
 
 \listoftables
-\cleardoublepage
+%\cleardoublepage
+\clearpage
 
 
 \input{content/glossary}            % INCLUDE: glossary of terms
-\cleardoublepage
-
+%\cleardoublepage
+\clearpage
 
 \input{content/colophon}
-\cleardoublepage
+%\cleardoublepage
+%\clearpage
 
 \input{content/declaration}
-\clearpage
-\newpage
+%\clearpage
+%\newpage
 \mbox{}
 
 % **************************************************
