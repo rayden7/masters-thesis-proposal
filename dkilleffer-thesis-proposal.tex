@@ -61,6 +61,7 @@
 % **************************************************
 \RequirePackage[hyphens]{url}
 \usepackage{tabularx}
+\usepackage{colortbl}
 \usepackage{enumitem}
 \usepackage[utf8]{inputenc}		% defines file's character encoding
 \usepackage[english]{babel} % babel system, adjust the language of the content
@@ -76,6 +77,9 @@
 	bibfile=bib-refs,%
 	bibstyle=alphabetic,%
 ]{cleanthesis}
+
+% use our own custom additions to the CleanThesis style; currently only for adding custom colors
+\usepackage{socialvideothesis}
 
 \hypersetup{					% setup the hyperref-package options
 	pdftitle={\thesisTitle},	% 	- title (PDF meta)

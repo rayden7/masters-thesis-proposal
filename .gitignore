@@ -10,3 +10,7 @@
 
 # Mac-specific desktop helper info
 .DS_Store
+
+# ignore the resources file, where I keep PDF documents of Latex books for reference
+resources/
+resources/*
