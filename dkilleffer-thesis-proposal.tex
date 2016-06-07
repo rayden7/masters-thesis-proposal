@@ -113,14 +113,10 @@
 \pagenumbering{roman}			% roman page numbing (invisible for empty page style)
 \pagestyle{empty}				% no header or footers
 \input{content/titlepages}		% INCLUDE: all titlepages
-%\cleardoublepage
 \pagestyle{plain}				% display just page numbers
 \input{content/abstract}		% INCLUDE: the abstract
-%\cleardoublepage
 %\clearpage
-
 \input{content/acknowledgements} % INCLUDE: acknowledgement
-%\cleardoublepage
 \clearpage
 
 \setcounter{tocdepth}{2}		% define depth of toc
@@ -156,6 +152,7 @@
 \input{content/chapter-work-plan}	        % INCLUDE: work plan
 \input{content/chapter-risks-alternatives}  % INCLUDE: risks and alternatives
 \input{content/chapter-schedule}            % INCLUDE: preliminary project schedule
+\cleardoublepage
 
 %%\input{content/chapter-concepts} % INCLUDE: concepts
 %\cleardoublepage

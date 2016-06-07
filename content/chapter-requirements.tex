@@ -6,7 +6,7 @@
 \section{Overview}
 \label{sec:requirements:overview}
 
-The Social Video platform prototype will allow for users to upload videos, define groups of individuals that are invited to annotate that video, create actual annotations on videos, enable administrators to "approve" annotations prior to those annotations being made public and searchable, and provide a rich, faceted search interface to find and locate videos of interest.
+The Social Video platform prototype will allow for users to upload videos, define groups of individuals that are invited to annotate that video, create actual annotations on videos, enable administrators to "approve" annotations prior to those annotations being made public and searchable, and provide a rich, faceted search interface to find and locate videos of interest.  \textit{A primary motivating factor for this project is that the individual that uploads a video may not know all of the possible metadata that should be associated with that video, and so relies on the recollection and annotations of others to enrich the media collection.}  
 
 \section{Details}
 \label{sec:requirements:details}
@@ -17,15 +17,21 @@ Detailed requirements for the prototype are as follows:
 \begin{itemize}[leftmargin=*]
 \item \textbf{User Authentication and Authorization} \\
 	New users may create an account and request a particular level of access (\textbf{Regular User} or \textbf{Administrative User}).  \textbf{Regular Users} are allowed to annotate videos, but \textbf{Administrative Users} can upload videos, create annotations, and "approve" annotations that \textbf{Regular Users} have added prior to those being made public and searchable.
-\item \textbf{User-Defined Groups} \\
 
-\item \textbf{Rich Annotations} \\
+\item \textbf{User-Defined Groups} \\
+	Individual users may "invite" other users of the system (or invite people not yet registered on the website) to join a custom group.  When a user invites another to join their group, the videos that the inviter has uploaded become viewable to the other members of the group, and the invitees may add metadata to the group.  Currently I am weighing the pros and cons of having annotations that other users add to a video be moderated by the original uploader/owner of the video; part of the difficulty in determining whether or not to enforce moderation is that it seems a premature optimization, and solving a \textit{potential} problem, but not necessarily a known one. One advantage of enforcing moderation of user-added annotations is that it would present an opportunity for the original uploader/owner of a video to normalize the annotations and ensure correct and standardized spelling of names, places, dates, etc.
 
 \item \textbf{Video Upload} \\
+	Registered users will be able to upload their own videos to the website which they can then add annotations to, or invite other users to annotate.  Common video formats such as .MP4, .MOV, .AVI will be supported, and other additional formats may be added as well if time permits.
+
+\item \textbf{Rich Annotations} \\
+	This is one of the core features of the project; users will be able to add annotations on a whole video basis (e.g., tagging a video as a particular family's recordings, for example), or more commonly, on segments of a video. \hyperref[sec:priorwork:opinioncity]{OpinionCity} allows for users to add a comment to an entire video, or to insert a comment at a specific time in the video, but this would not allow for knowing exactly from and to a particular annotation is valid (e.g., annotating when a person is first shown in frame and when they leave the frame); \hyperref[sec:priorwork:amazon-x-ray]{Amazon X-Ray} works this way, but does not allow viewers to add or edit such annotations (and the original source for such annotations could potentially be machine generated from a timecoded script or algorithmic analysis of the video and not from human-generated annotations).  The \hyperref[sec:priorwork:media-rich-video-annotation-tool]{Media-rich Video Annotation Tool (MVAT)} does support adding annotations that have a beginning and ending within a video (and also offers other types of useful annotation types for pedagogical purposes), but this prototype will focus purely on textual annotations which are used for categorization and tagging.  The user interface will focus on fairly simple annotations (people, places, things, dates, etc.), because these will form the foundation for the faceted search.
 	
 \item \textbf{Faceted Search} \\
+	The heart of the project will be the faceted search feature; this will enable users to quickly and easily find all the videos that a prticular person is in, all the videos recorded at a particular place, in a particular year/month, etc.  User supplied annotations will form the basis for the facets.  Depending upon the breadth/depth of user-generated annotations, some curation of the facets may be necessary.
 
 \item \textbf{Video Playlists} \\
+	If time permits, the system should allow for users to create video "playlists" of their favorite moments/segments of videos; the interface for adding videos should be very simple (perhaps a drag and drop interface) to build up a playlist from a search result.  Users can mark a playlist as private (only viewable to themselves), or public, which could be shared with others, enhacing the utility of the website and encouraging further user participation.  A stretch goal would be to allow for not just discrete video playlists (e.g., arbitrarily adding entire videos or segments of videos to a playlist), but creating a playlist from search terms or facets (e.g., construct a playlist called "funny" combined with "vacation", which would have all of the video segments tagged with the keywords "funny" and "vacation").  This would bring new levels of engagement to the site by incentivizing user participation because they would be able to quickly see how their annotation activities influenced already established public video playlists.
 
 \end{itemize}
 
