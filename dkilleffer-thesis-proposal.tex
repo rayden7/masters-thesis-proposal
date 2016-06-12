@@ -62,7 +62,6 @@
 \RequirePackage[hyphens]{url}
 \usepackage{tabularx}
 \usepackage{longtable}
-%\usepackage{paralist}
 \usepackage{colortbl}
 \usepackage{enumitem}
 \usepackage[utf8]{inputenc}		% defines file's character encoding
@@ -108,6 +107,11 @@
 %\renewcaptionname{ngerman}{\tablename}{Tab.}
 \renewcaptionname{english}{\figurename}{Fig.}
 \renewcaptionname{english}{\tablename}{Tab.}
+
+
+% fix the problem of extranneous double page clears, especially between the Abstract and Acknowledgements sections
+\let\cleardoublepage\clearpage
+
 
 % --------------------------
 % Front matter
