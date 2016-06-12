@@ -3,39 +3,79 @@
 \chapter{Preliminary Schedule}
 \label{sec:schedule}
 
-
 %Give a breakdown of the activities that lead to completion of major milestones in your work, and give rough time estimates for completing these activities.  These should be at the level of detail of 2-4 weeks each.
 
 
-\begin{table}[ht]
-\centering
-\begin{tabularx}{\linewidth}{
-    |>{\hsize=0.5\hsize}X|% 25% of 2\hsize 
-    >{\hsize=1.5\hsize}X|% 75% of 2\hsize
-       % sum=2.0\hsize for 2 columns
-} \hline
-	\textbf{Month/Year} & \textbf{Description} \\ \hline
-%\rowcolor{mymagenta1}{July 2016} & {Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at varius ipsum, quis imperdiet dolor. Pellentesque tincidunt massa at felis pulvinar dictum. Nunc viverra euismod odio, vitae aliquet nunc accumsan ut. Aenean mauris purus, lobortis nec rutrum eget, interdum id ipsum. Duis vulputate nisl sed turpis bibendum dignissim. Aenean porttitor suscipit dui, quis elementum lectus ultrices non. Donec ut tincidunt nunc. Vestibulum ultricies diam eget ante fringilla maximus. Duis et congue ligula.
-%
-%Vestibulum in auctor neque. Duis lobortis consequat enim nec hendrerit. Sed felis dui, tincidunt a sapien ac, elementum iaculis ex. Ut nulla nisl, dictum et mauris eu, condimentum pretium sapien. Donec pulvinar, lectus eu pulvinar rutrum, justo risus laoreet ipsum, nec aliquam sem mi sit amet orci. Morbi scelerisque tempor mi sed pharetra. Maecenas dignissim aliquam convallis. Aliquam sagittis elementum enim, vel dignissim quam porta eu. Vestibulum ullamcorper varius orci, id consectetur massa rutrum commodo. Nunc semper posuere pretium. Aenean molestie vestibulum sapien id mattis. Pellentesque a iaculis dolor. Nulla facilisi. Morbi luctus justo et est porttitor malesuada.} \\ \hline
-	\rowcolor{mymagenta1}{July 2016} & {\begin{itemize}[noitemsep,leftmargin=*]
-			\item Continue to develop thesis proposal and get approval to proceed
-			\item Research on Node.js, Express.js, and Elasticsearch
-			\item do thing 3
-		\end{itemize}} \\ \hline
-	\rowcolor{mymagenta2}{August 2016} & {do more work} \\ \hline
-	\rowcolor{mymagenta3}{September 2016} & {do more work} \\ \hline
-	\rowcolor{mymagenta4}{October 2016}   & {do more work} \\ \hline
-	\rowcolor{mymagenta5}{November 2016}  & {do more work} \\ \hline
-	\rowcolor{mymagenta6}{December 2016}  & {do more work} \\ \hline
-	\rowcolor{mymagenta7}{January 2017}   & {do more work} \\ \hline
-	\rowcolor{mymagenta8}{February 2017}  & {do more work} \\ \hline
-	\rowcolor{mymagenta9}{March 2017}     & {do more work} \\ \hline
-	\rowcolor{mymagenta10}{April 2017}     & {do more work} \\ \hline
-	\rowcolor{mymagenta1}{May 2017}       & {last bit of work} \\ \hline 
-%\end{tabular}
-\end{tabularx}
+\begin{longtable}{|>{\centering\arraybackslash}p{3cm}|>{\centering\arraybackslash}p{10.5cm}|}
+	\hline
+	\rowcolor{mymagenta3}{\textbf{Month/Year}}  & {\textbf{Description}} \\ 
+	\hline
+	\endhead % all the lines above this will be repeated on every page
+	\rowcolor{mymagenta2}{July 2016} & {\begin{tabular}[!t]{@{\textbullet\~}p{10cm}@{}}
+			Continue to develop thesis proposal and get approval to proceed \\
+			System design and architecture diagramming \\
+			Research on Node.js, Express.js, and Elasticsearch \\
+			Initial wireframing exercises of the front-end user interface \\
+		\end{tabular} 
+	} \\ \hline
+	\rowcolor{mymagenta1}{August 2016} & {\begin{tabular}[t]{@{\textbullet\~}p{10cm}@{}}
+			Summer vacation \\
+		\end{tabular}
+	} \\ \hline
+	\rowcolor{mymagenta2}{September 2016} & {\begin{tabular}[!t]{@{\textbullet\~}p{10cm}@{}}
+			Tooling setup; source code repository, establish workflow for development \\
+			Determine server setup and configuration; install Node.js, Elasticsearch \\
+			Develop basic Node.js / Express.js application allowing for user account creation, sign-in, users creating groups, and initial video upload \\
+			Develop administrative toolkit where administrators may invite new users to website and approve video annotations submitted by users (annotation mechanism not yet built) \\
+		\end{tabular}
+	} \\ \hline
+	\rowcolor{mymagenta1}{October 2016}   & {\begin{tabular}[t]{@{\textbullet\~}p{10cm}@{}}
+			do thing 1 \\
+			do thing 2 \\
+			do thing 3 \\
+		\end{tabular}
+	} \\ \hline
+	\rowcolor{mymagenta2}{November 2016}  & {\begin{tabular}[t]{@{\textbullet\~}p{10cm}@{}}
+			do thing 1 \\
+			do thing 2 \\
+			do thing 3 \\
+		\end{tabular}
+	} \\ \hline
+	\rowcolor{mymagenta1}{December 2016}  & {\begin{tabular}[t]{@{\textbullet\~}p{10cm}@{}}
+			do thing 1 \\
+			do thing 2 \\
+			do thing 3 \\
+		\end{tabular}
+	} \\ \hline
+	\rowcolor{mymagenta2}{January 2017}   & {\begin{tabular}[t]{@{\textbullet\~}p{10cm}@{}}
+			Final bugfixes, code cleanup, review codebase and improve documentation \\
+			Continue thesis draft, work with Susan Buck on document revisions \\
+		\end{tabular}
+	} \\ \hline
+	\rowcolor{mymagenta1}{February 2017}  & {\begin{tabular}[t]{@{\textbullet\~}p{10cm}@{}}
+			Continued user testing, feature tweaks, bug fixes \\
+			Update documentation on how project has changed/deviated from original plan since inception \\
+			Begin writing final thesis draft for approval \\
+		\end{tabular}
+	} \\ \hline
+	\rowcolor{mymagenta2}{March 2017}     & {\begin{tabular}[t]{@{\textbullet\~}p{10cm}@{}}
+			Final bugfixes, code cleanup, review codebase and improve documentation \\
+			Code freeze \\
+			Continue thesis draft, work with Susan Buck on document revisions \\
+		\end{tabular}
+	} \\ \hline
+	\rowcolor{mymagenta1}{April 2017}     & {\begin{tabular}[t]{@{\textbullet\~}p{10cm}@{}}
+			Final thesis document approval and review with Susan Buck \\
+			Receive overall grade for thesis project \\
+			Prepare presentation for HES IT Symposium \\
+		\end{tabular}
+	} \\ \hline
+	\rowcolor{mymagenta2}{May 2017}       & {\begin{tabular}[t]{@{\textbullet\~}p{10cm}@{}}
+			Present thesis at HES IT Symposium \\
+			HES Graduation \\
+		\end{tabular}
+	} \\ \hline 
 \caption{Preliminary Project Schedule}
-\label{sec:schedule:preliminary-schedule}
-\end{table}
+\label{sec:schedule:preliminary-schedule2}
+\end{longtable}
 
